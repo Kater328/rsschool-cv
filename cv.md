@@ -1,21 +1,21 @@
-Kateryna Kitsenko
-Odessa, Ukraine  
+# Kateryna Kitsenko
+### Odessa, Ukraine  
 
-Contacts
-phone: +38 (067) 521 81 91;
-email: kateryna.kitsenko@gmail.com;
-telegram: @kkaterrina https://t.me/kkaterrina; 
+## Contacts
+* **phone:** +38 (067) 521 81 91;
+* **email:** kateryna.kitsenko@gmail.com;
+* **telegram:** [@kkaterrina](https://t.me/kkaterrina); 
 
-Summary
+## Summary
 My main goal is to become a Front-End Developer. Therefore, I spend all my free time, to increase programming and English skills.  
 I can say about myself that I’m extremely responsible and organized in my work. Despite the fact, that I do not have much work experience, I am ready to learn a lot.  
 
-Skills
+## Skills
 Basic knowledge of HTML, CSS, JavaScript, Git & GitHub.  
 Programming Languages: C#, Java.  
 
-Code Example
-javascript
+## Code Example
+```javascript
 function calculateHotelPrice(){
     let night = document.getElementsById('night').value;
     let room = document.getElementsByName('room');
@@ -26,25 +26,21 @@ function calculateHotelPrice(){
     }                                          
     alert (`For ${night} nights you need to pay ${a} hryvnia.`); 
 }
+``` 
 
-
-Experience
+## Experience
 Website development for an international university conference (not open source anymore).  
 
-Education
-2016-2020 
+## Education
+**2016-2020**  
 Odessa National Polytechnic University, specialty "Computer Science and Information Technologies"  (bachelor's degree with honors).  
-
-2019-2020:  
+>  
+**2019-2020:**  
 Comprehensive course "Informatics" under the exchange program with the Polytechnic University of Valencia with a certificate.  
-
-2020 - 2021:
+>  
+**2020 - 2021:**  
 Odessa National Polytechnic University, specialty "Information technology design in mechanical engineering" (Master's degree).   
 
-Languages
-English (A2);  
-Spanish (B2).
-
-
-
-
+## Languages
+English (*A2*);  
+Spanish (*B2*).
