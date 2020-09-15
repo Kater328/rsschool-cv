@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitsenko CV</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>Kateryna Kitsenko</header>
+    <main>
+        <img src="images/photo_2020.jpg" alt="my_photo">
+        <h4> Odessa, Ukraine</h4><hr>
+        <h2 class="title">Contacts</h2>
+        <ul>
+            <li><b>phone:</b> +38 (067) 521 81 91;</li>
+            <li><b>email:</b> kateryna.kitsenko@gmail.com;</li>
+            <li><b>telegram:</b> <a href="https://t.me/kkaterrina">@kkaterrina</a></li>
+        </ul>
+
+        <h2 class="title">Summary</h2>
+        <p>My main goal is to become a Front-End Developer. Therefore, I spend all my free time, to increase programming and English skills.</p>
+        <p>I can say about myself, that I’m extremely responsible and organized in my work. Despite the fact, that I do not have much work experience, I am ready to learn a lot. </p>
+        
+        <h2 class="title">Skills</h2>
+        <p>Basic knowledge of HTML, CSS, JavaScript, Git & GitHub.</p>
+        <p>Programming Languages: C#, Java.</p>
+
+        <h2 class="title">Code Example</h2>
+        <div class = "code">
+            <code>
+                <pre>
+    function calculateHotelPrice(){
+        let night = document.getElementsById('night').value;
+        let room = document.getElementsByName('room');
+        for(let i = 0; i < room.length; i++) {
+            if(i == 0 && room[i].checked) let a = night * 800;
+            if(i == 1 && room[i].checked) let a = night * 1100;
+            if(i == 2 && room[i].checked) let a = night * 1600;
+        }                                          
+        alert (`For ${night} nights you need to pay ${a} hryvnia.`); 
+    }
+</pre>
+            </code>
+        </div>
+
+        <h2 class="title">Experience</h2>
+        <p>Website development for an international university conference (not open source anymore).</p>
+
+        <h2 class="title">Education</h2>
+        <p><b>2016-2020</b></p>
+        <p class="indent">Odessa National Polytechnic University, specialty "Computer Science and Information Technologies"  (bachelor's degree with honors).</p>
+        <p><b>2019-2020:</b></p>
+        <p class="indent">Comprehensive course "Informatics" under the exchange program with the Polytechnic University of Valencia with a certificate.</p>
+        <p><b>2020 - 2021:</b></p>
+        <p class="indent">Odessa National Polytechnic University, specialty "Information technology design in mechanical engineering" (Master's degree).</p>
+
+        <h2 class="title">Languages</h2>
+        <p> English (<i>A2</i>);  </p>
+        <p> Spanish (<i>B2</i>). </p>
+        <br><br><br>
+    </main>
+</body>
+</html>
